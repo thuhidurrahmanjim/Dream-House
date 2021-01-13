@@ -1,0 +1,140 @@
+/*general css*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+/*header css*/
+.header{
+	overflow: hidden;
+	padding: 30px 0;
+}
+.brand{
+	width: 30%;
+	float: left;
+}
+.brand img{}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3f628c;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+}
+.menu ul li a:hover{
+	color: #4FEFE5;
+}
+/*Banner css*/
+.banner{
+	background-image: url('../img/house.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.banner-contant .contant{
+	padding: 20px;
+	background:rgba(0,0,0,0.5); 
+}
+.banner-contant{
+	width: 30%;
+	padding-top: 120px;
+	float: right;
+}
+.banner-contant h1{
+	font-weight: 600;
+    font-size: 40px;
+    color: #B6BDCD;
+    text-transform: uppercase;
+}
+.banner-contant p{
+	font-weight: 600;
+    font-size: 18px;
+    color: #B6BDCD;
+    margin: 15px 0;
+}
+.banner-contant a{
+	font-weight: 400;
+	color: #B6BDCD;
+	background-color: #1F232F;
+	text-decoration: none;
+	padding: 8px 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+/*about css*/
+.about{
+	overflow: hidden;
+	padding: 80px 0;
+}
+.signle-content{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.signle-content h3{
+	font-size: 22px;
+    font-weight: 400;
+    color: #b5b3b1;
+}
+.signle-content img{
+	width: 100%;
+	height: auto;
+}
+.space-middle{
+	margin: 0 5%;
+}
+.signle-content p{
+	color: #4F5F6C;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.signle-content a{
+	color: #fff;
+    background-color: #3C5677;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.signle-content a:hover{
+	color:#4FEFE5;
+}
+
+/*footer css*/
+.footer{
+	padding: 40px 0;
+}
+.footer-content {
+	text-align: center;
+}
+.footer-content p{
+	color: #A6AFB4;
+	margin-bottom: 10px;
+}
+.footer-content .social-icon{
+	list-style-type: none;
+}
+.footer-content .social-icon li{
+	display: inline-block;
+	margin: 10px 5px;
+}
